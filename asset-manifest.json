@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/feedback-form-frontEnd-part/static/css/main.c7ec3132.css",
-    "main.js": "/feedback-form-frontEnd-part/static/js/main.94c99d25.js",
-    "static/js/787.050d79ae.chunk.js": "/feedback-form-frontEnd-part/static/js/787.050d79ae.chunk.js",
-    "static/media/ellipse.png": "/feedback-form-frontEnd-part/static/media/ellipse.647ac9940401ffb3ed42.png",
-    "static/media/clouds.svg": "/feedback-form-frontEnd-part/static/media/clouds.9c7a28a8f58d704515254e42fff7d536.svg",
-    "static/media/twitter.svg": "/feedback-form-frontEnd-part/static/media/twitter.ec16eacef69e7fa00fd714d0c7fb59a3.svg",
-    "static/media/yellow-bubble.svg": "/feedback-form-frontEnd-part/static/media/yellow-bubble.c54782dddd8e99567f3933193cfce287.svg",
-    "static/media/pink-bubble.svg": "/feedback-form-frontEnd-part/static/media/pink-bubble.6ab4df7e5fcc910803e86bd67657666a.svg",
-    "static/media/yellow-small-bubble.svg": "/feedback-form-frontEnd-part/static/media/yellow-small-bubble.66613d7eb0fd1d0a200ec6b96717dd19.svg",
-    "static/media/pint.svg": "/feedback-form-frontEnd-part/static/media/pint.90e8b55baf9b710e8bf136a8e2ac6faa.svg",
-    "static/media/green-bubble.svg": "/feedback-form-frontEnd-part/static/media/green-bubble.7002f871cc4e515e5904527582912344.svg",
-    "index.html": "/feedback-form-frontEnd-part/index.html",
-    "static/media/inst.svg": "/feedback-form-frontEnd-part/static/media/inst.e1d2ca7be738d2f911c680bdce2b1304.svg",
-    "static/media/fb.svg": "/feedback-form-frontEnd-part/static/media/fb.672e85ca4b2724d5fc229e6c3f5dacca.svg",
-    "static/media/sun.svg": "/feedback-form-frontEnd-part/static/media/sun.d7cc6720660b413184f7f13bc4910d6e.svg",
-    "main.c7ec3132.css.map": "/feedback-form-frontEnd-part/static/css/main.c7ec3132.css.map",
-    "main.94c99d25.js.map": "/feedback-form-frontEnd-part/static/js/main.94c99d25.js.map",
-    "787.050d79ae.chunk.js.map": "/feedback-form-frontEnd-part/static/js/787.050d79ae.chunk.js.map"
+    "main.css": "/Feedback-form-frontEnd-part/static/css/main.c7ec3132.css",
+    "main.js": "/Feedback-form-frontEnd-part/static/js/main.fe3d6650.js",
+    "static/js/787.050d79ae.chunk.js": "/Feedback-form-frontEnd-part/static/js/787.050d79ae.chunk.js",
+    "static/media/ellipse.png": "/Feedback-form-frontEnd-part/static/media/ellipse.647ac9940401ffb3ed42.png",
+    "static/media/clouds.svg": "/Feedback-form-frontEnd-part/static/media/clouds.9c7a28a8f58d704515254e42fff7d536.svg",
+    "static/media/twitter.svg": "/Feedback-form-frontEnd-part/static/media/twitter.ec16eacef69e7fa00fd714d0c7fb59a3.svg",
+    "static/media/yellow-bubble.svg": "/Feedback-form-frontEnd-part/static/media/yellow-bubble.c54782dddd8e99567f3933193cfce287.svg",
+    "static/media/pink-bubble.svg": "/Feedback-form-frontEnd-part/static/media/pink-bubble.6ab4df7e5fcc910803e86bd67657666a.svg",
+    "static/media/yellow-small-bubble.svg": "/Feedback-form-frontEnd-part/static/media/yellow-small-bubble.66613d7eb0fd1d0a200ec6b96717dd19.svg",
+    "static/media/pint.svg": "/Feedback-form-frontEnd-part/static/media/pint.90e8b55baf9b710e8bf136a8e2ac6faa.svg",
+    "static/media/green-bubble.svg": "/Feedback-form-frontEnd-part/static/media/green-bubble.7002f871cc4e515e5904527582912344.svg",
+    "index.html": "/Feedback-form-frontEnd-part/index.html",
+    "static/media/inst.svg": "/Feedback-form-frontEnd-part/static/media/inst.e1d2ca7be738d2f911c680bdce2b1304.svg",
+    "static/media/fb.svg": "/Feedback-form-frontEnd-part/static/media/fb.672e85ca4b2724d5fc229e6c3f5dacca.svg",
+    "static/media/sun.svg": "/Feedback-form-frontEnd-part/static/media/sun.d7cc6720660b413184f7f13bc4910d6e.svg",
+    "main.c7ec3132.css.map": "/Feedback-form-frontEnd-part/static/css/main.c7ec3132.css.map",
+    "main.fe3d6650.js.map": "/Feedback-form-frontEnd-part/static/js/main.fe3d6650.js.map",
+    "787.050d79ae.chunk.js.map": "/Feedback-form-frontEnd-part/static/js/787.050d79ae.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c7ec3132.css",
-    "static/js/main.94c99d25.js"
+    "static/js/main.fe3d6650.js"
   ]
 }
