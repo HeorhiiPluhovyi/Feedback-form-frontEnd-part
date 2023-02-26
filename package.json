@@ -1,7 +1,7 @@
 {
   "name": "feedback",
   "version": "0.1.0",
-  "homepage": "https://heorhiipluhovyi.github.io/feedback-form-frontEnd-part",
+  "homepage": "https://heorhiipluhovyi.github.io/Feedback-form-frontEnd-part/",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.3",
