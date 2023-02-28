@@ -6,6 +6,10 @@ import React, {
   SyntheticEvent
 } from 'react';
 import styled from "styled-components";
+import {FeedbackData} from "../types/feedback";
+import {useDispatch} from "react-redux";
+import {postFeedback} from "../store/action-creators/feedback";
+import type {} from 'redux-thunk/extend-redux';
 
 const FormWrapper = styled.form`
   max-width: 630px;
@@ -95,6 +99,8 @@ const Form = () => {
 
   const [isInvalidForm, setIsInvalidForm] = useState<boolean>(true);
 
+  const dispatch = useDispatch();
+
   const blurHanler = (
     e: FocusEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => {
@@ -170,16 +176,13 @@ const Form = () => {
   const handleSubmit = (e: SyntheticEvent<HTMLFormElement>) => {
     e.preventDefault();
 
-    const userFeedback = {
-      userName: nameInput,
+    const userFeedback: FeedbackData = {
+      name: nameInput,
       email: emailInput,
       massage: massageInput
     }
 
-    fetch("https://feedback-41313-default-rtdb.europe-west1.firebasedatabase.app/feedback.json", {
-      method: "POST",
-      body: JSON.stringify(userFeedback),
-    });
+    dispatch(postFeedback(userFeedback));
 
     setNameInput('');
     setEmailInput('');

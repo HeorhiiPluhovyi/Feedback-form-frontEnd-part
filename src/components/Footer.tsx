@@ -1,12 +1,20 @@
 import React from 'react';
 import styled from 'styled-components';
-import pinkBubble from '../../assets/pink-bubble.svg';
-import ellowSmallBubble from '../../assets/yellow-small-bubble.svg';
-import greenBubble from '../../assets/green-bubble.svg';
-import fb from '../../assets/fb.svg';
-import pint from '../../assets/pint.svg';
-import tw from '../../assets/twitter.svg';
-import instagram from '../../assets/inst.svg';
+
+// @ts-ignore
+import pinkBubble from '../assets/pink-bubble.svg';
+// @ts-ignore
+import yellowSmallBubble from '../assets/yellow-small-bubble.svg';
+// @ts-ignore
+import greenBubble from '../assets/green-bubble.svg';
+// @ts-ignore
+import fb from '../assets/fb.svg';
+// @ts-ignore
+import pint from '../assets/pint.svg';
+// @ts-ignore
+import tw from '../assets/twitter.svg';
+// @ts-ignore
+import instagram from '../assets/inst.svg';
 
 const FooterWrapper = styled.footer`
     width: 100%;
@@ -16,7 +24,7 @@ const FooterWrapper = styled.footer`
     background-image: 
           url(${pinkBubble}), 
           url(${greenBubble}),
-          url(${ellowSmallBubble});
+          url(${yellowSmallBubble});
     background-repeat: no-repeat;
     background-position:
       52px 4px,
@@ -84,7 +92,7 @@ const LinksContainer = styled.div`
   display: flex;
   justify-content: space-between;
   background-color: #FAFAFA;
-`
+`;
 
 const Footer = () => {
     return (

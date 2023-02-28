@@ -1,19 +1,26 @@
 import React from 'react';
 import styled from 'styled-components';
-import ellowBubble from '../../assets/yellow-bubble.svg';
-import ellowSmallBubble from '../../assets/yellow-small-bubble.svg';
-import pinkBubble from '../../assets/pink-bubble.svg';
-import allipse from '../../assets/ellipse.png';
-import clouds from '../../assets/clouds.svg';
-import sun from '../../assets/sun.svg';
-import Form from "./form/Form";
+
+// @ts-ignore
+import yellowBubble from '../assets/yellow-bubble.svg';
+// @ts-ignore
+import yellowSmallBubble from '../assets/yellow-small-bubble.svg';
+// @ts-ignore
+import pinkBubble from '../assets/pink-bubble.svg';
+// @ts-ignore
+import ellipse from '../assets/ellipse.png';
+// @ts-ignore
+import clouds from '../assets/clouds.svg';
+// @ts-ignore
+import sun from '../assets/sun.svg';
+import Form from './Form';
 
 const MainWrapper = styled.main`
   background-image: 
-          url(${ellowSmallBubble}), 
-          url(${ellowBubble}),
+          url(${yellowSmallBubble}), 
+          url(${yellowBubble}),
           url(${pinkBubble}),
-          url(${allipse}),
+          url(${ellipse}),
           url(${sun}),
           url(${clouds});
   background-repeat: no-repeat;
